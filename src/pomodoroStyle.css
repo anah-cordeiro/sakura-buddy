@@ -3,3 +3,24 @@
     --secondary-color: rgb(255, 183, 197);
     --accent-color: rgb(109, 81, 87);
   }
+
+  .container {
+    display: block;
+    text-align: center;
+  }
+
+  #timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: var(--main-color);
+  }
+
+  button {
+    background: rgb(109, 81, 87);
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    margin-left: 5px;
+    border-radius: 6px;
+    color: white;
+  }

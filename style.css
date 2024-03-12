@@ -19,10 +19,6 @@ body {
   }
 
   h1 {
-    margin: 45px auto;
-    padding: 25px 25px;
-    max-width: 600px;
-    border-radius: 4%;
     text-align: center;
     border-color: rgb(201, 89, 106);
   }
@@ -31,9 +27,6 @@ body {
     display: block;
     margin: 0 auto;
     padding: 30px 25px;
-    max-width: 600px;
-    border-color: black;
-    border-radius: 4%;
     text-align: center;
     color: rgb(201, 89, 106);
     font-size: 14px;

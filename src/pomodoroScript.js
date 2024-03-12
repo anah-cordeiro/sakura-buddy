@@ -1,5 +1,5 @@
 let timer;
-let timeLeft = 25 * 60;
+let timeLeft = localStorage.getItem('timeLeft') || 25 * 60;
 
 const timerDisplay = document.getElementById('timer');
 const startBtn = document.getElementById('startBtn');
