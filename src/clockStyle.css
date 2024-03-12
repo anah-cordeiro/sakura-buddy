@@ -11,23 +11,7 @@ header {
     font-family: "Kanit", sans-serif;
     font-size: 36px;
   }
-  
-  h1 {
-    margin: 45px auto;
-    padding: 25px 25px;
-    max-width: 600px;
-    border-radius: 4%;
-    text-align: center;
-    border-color: rgb(201, 89, 106);
-  }
-  
-  body {
-    font-size: 16px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 600px;
-  }
-  
+   
   select {
     background-color: rgb(242, 185, 202);
     color: rgb(255, 255, 255);
@@ -66,17 +50,4 @@ header {
     font-weight: bold;
     color: var(--accent-color);
     font-family: "Courier New", Courier, monospace;
-  }
-  
-  footer {
-    display: block;
-    margin: 0 auto;
-    padding: 30px 25px;
-    max-width: 600px;
-    border-color: black;
-    border-radius: 4%;
-    text-align: center;
-    color: rgb(201, 89, 106);
-    font-size: 14px;
-    font-family: "Kanit", sans-serif;
   }
