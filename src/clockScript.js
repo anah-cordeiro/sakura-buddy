@@ -22,7 +22,7 @@ function defaultTime() {
       lisbonDateElement.innerHTML = lisbonTime.format("MMMM     Do YYYY");
       lisbonTimeElement.innerHTML = lisbonTime.format("h:mm:ss A");
     }
-  1
+    
     //Tokyo
     let tokyoElement = document.querySelector("#tokyo");
   

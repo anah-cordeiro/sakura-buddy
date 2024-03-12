@@ -1,19 +1,9 @@
 body {
-    background-color: #f9f7fe;
     font-family: "Roboto", sans-serif;
   }
   
   a {
     color: #885df1;
-  }
-  
-  .weather-app {
-    background: white;
-    max-width: 600px;
-    margin: 45px auto;
-    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-    border-radius: 16px;
-    padding: 30px;
   }
   
   header {
@@ -31,7 +21,7 @@ body {
   }
   
   .search-form-button {
-    background: #885df1;
+    background: rgb(109, 81, 87);
     padding: 15px 30px;
     border: none;
     font-size: 16px;
@@ -81,7 +71,7 @@ body {
     font-weight: bold;
   }
   
-  .weatehr-app-unit {
+  .weather-app-unit {
     margin-top: 6px;
     font-size: 28px;
   }

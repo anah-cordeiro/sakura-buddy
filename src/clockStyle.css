@@ -1,7 +1,13 @@
+:root {
+  --main-color: rgb(201, 89, 106);
+  --secondary-color: rgb(242, 185, 202);
+  --accent-color: rgb(109, 81, 87);
+}
+
 header {
     display: block;
     text-align: center;
-    color: rgb(201, 89, 106);
+    color: var(--main-color);
     font-family: "Kanit", sans-serif;
     font-size: 36px;
   }
@@ -16,23 +22,10 @@ header {
   }
   
   body {
-    background-color: rgb(234, 188, 201);
     font-size: 16px;
-    background-image: url(https://raw.githubusercontent.com/anah-cordeiro/world-clock-app/main/media/sakurabranch.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 600px;
-  }
-  
-  .container {
-    display: block;
-    max-width: 600px;
-    margin: 60px auto;
-    padding: 30px;
-    background-color: rgba(242, 185, 202, 0.9);
-    box-shadow: rgba(201, 89, 106, 0.3) 0px 7px 30px 0px;
-    border-radius: 7px;
-    text-align: center;
   }
   
   select {
@@ -62,7 +55,7 @@ header {
   }
   
   .date {
-    color: rgb(109, 81, 87);
+    color: var(--accent-color);
     opacity: 0.7;
     font-weight: bold;
     font-family: "Kanit", sans-serif;
@@ -71,7 +64,7 @@ header {
   .time {
     font-size: 46px;
     font-weight: bold;
-    color: rgb(109, 81, 87);
+    color: var(--accent-color);
     font-family: "Courier New", Courier, monospace;
   }
   
@@ -87,10 +80,3 @@ header {
     font-size: 14px;
     font-family: "Kanit", sans-serif;
   }
-  
-  /* cores a usar: 
-  rgb(245, 213, 208) salmãozinho
-  rgb(201, 89, 106) rosa escuro - reitoria up
-  rgb(242, 185, 202) rosa normal
-  rgb(234, 188, 201) rosa mais claro
-  */
