@@ -5,17 +5,29 @@
   }
 
 body {
-    background: linear-gradient(120deg, rgba(255,255, 255,0.7), rgba(255, 183, 197, 0.9)) fixed center;
+    background-image: url(/media/main-background.png);
+    background-size: cover;
     font-size: 16px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 60px auto;
     padding: 30px;
     background-color: rgba(242, 185, 202, 0.8);
     box-shadow: rgba(201, 89, 106, 0.7) 2px 10px 30px 0px;
     border-radius: 16px;
+  }
+
+  .websiteInfo {
+    text-align: justify;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    color: var(--accent-color);
+    font-size: 20px;
+  }
+
+  .cardContainer {
   }
 
   h1 {
