@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Imports-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.42/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -52,7 +50,7 @@
   </nav>
 <!--Body Container-->
 <div class="container">
-
+  <div class="weather-app">
   <header>
     <form class="search-form" id="search-form">
       <input
@@ -65,7 +63,6 @@
       <input type="submit" value="Search" class="search-form-button" />
     </form>
   </header>
-
   <main>
     <div class="weather-app-data">
       <div>
@@ -84,8 +81,10 @@
         <div class="weather-app-unit">°C</div>
       </div>
     </div>
+    <div class="weather-forecast" id="forecast"></div>
   </main>
   </div>
+</div>
 <!--Footer-->
     <footer>
       Coded by
@@ -93,7 +92,6 @@
         >Ana Cordeiro</a
       >.
     </footer>
-    <script src="/src/weatherScript.js"></script>
-    
+    <script src="/src/weatherScript.js"></script> 
 </body>
 </html>
